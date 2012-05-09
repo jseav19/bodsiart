@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(../images/bodsiart_homepage_background_torn_paper_01.png);
+    background-repeat: no-repeat;
+    background-color: #fefefe;
+    margin: 0 auto;
+    text-align: center;
+    width: 1420px;
+    height: auto;
+    font-family: Gudea;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    text-align: left;
+    margin-top: 98px;
+}
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+#mainimg {
+    margin-left: 92px;
+}
+
+#radius {
+    border-radius: 6px;
+}
+
+#greenslice {
+    margin-bottom: 65px;
+    margin-right: -2px;
+}
+
+/* header */
+header {
+    height: 100%;
+    width: 100%;
+}
+
+header.border {
+    border-bottom-image: url(..images/brown_spine_repeat_piece.png);
+    -moz-border-image:url(..images/brown_spine_repeat_piece.png) 30 30 round; /* Firefox */
+    -webkit-border-image:url(..images/brown_spine_repeat_piece.png) 30 30 round; /* Safari */
+    -o-border-image:url(..images/brown_spine_repeat_piece.png) 30 30 round; /* Opera */
+    border-image:url(..images/brown_spine_repeat_piece.png) 30 30 round;
+}
+
+#border {
+    background: transparent url(../images/brown_spine_repeat_piece.png) repeat-x 0 0;
+    width: 1420px;
+    height: 30px;
+    z-index: 101;
+}
+
+/* navigation */
+nav ul {
+    float: right;
+    margin-right: 118px;
+    margin-top: 59px;
+    text-transform: lowercase;
+    font-size: 21pt;
+    text-shadow: 0 1px 0 white;
+}
+
+
+h1 {
+    font-family: Overlock SC;
+    margin: 100px 0 0 0;
+    font-size: 21pt;
+    letter-spacing: 0.05em;
+    text-shadow: 3px 3px 0 #999999;
+}
+
+h2 {
+    position: absolute;
+    top: 373px;
+    left: 20px;
+    width: 100%;
+}
+
+h2 span {
+    color: white;
+    font-family: Gudea, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgb(161, 170, 92);
+    padding-top: 84px;
+    padding-right: 350px;
+    padding-bottom: 69px;
+    padding-left: 20px;
+    opacity: 0.85;
+   -moz-opacity: 0.85;
+    filter:alpha(opacity=85);
+    border-radius: 2px;
+}
+
+h3 {
+    font-family: Gudea, sans-serif;
+    font-size: 29pt;
+    font-weight: 700;
+    color: #646156;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #646156;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+img.block {
+    display: block;
+}
+
+img.inline {
+    display: inline;
+}
+
+img.logo {
+    float: left;
+    margin-top: 59px;
+    margin-left: 118px;
+    margin-bottom: 25px;
+}
+
+/* footer */
+footer {
+    background: transparent url(../images/bodsiart_homepage_background_torn_paper_footer_04.png) repeat 0 0;
+    height: 216px;
+}
+
+/* clearfix */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
