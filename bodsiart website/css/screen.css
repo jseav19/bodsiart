@@ -30,6 +30,10 @@ body {
     text-align: right;
 }
 
+.inline {
+    display: inline;
+}
+
 #mainimg {
     margin-left: 92px;
 }
@@ -109,7 +113,7 @@ h2 span {
 
 h3 {
     font-family: Gudea, sans-serif;
-    font-size: 29pt;
+    font-size: 24pt;
     font-weight: 700;
     color: #646156;
 }
@@ -148,6 +152,19 @@ img.logo {
 footer {
     background: transparent url(../images/bodsiart_homepage_background_torn_paper_footer_04.png) repeat 0 0;
     height: 216px;
+}
+
+#footertxt {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#footerspine {
+    padding-top: 30px;
+}
+
+.address {
+    font-size: 20pt;
 }
 
 /* clearfix */
