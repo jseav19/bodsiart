@@ -26,6 +26,10 @@ body {
     width: 100%; /* for IE 6 */
 }
 
+.fR {
+    text-align: right;
+}
+
 #mainimg {
     margin-left: 92px;
 }
